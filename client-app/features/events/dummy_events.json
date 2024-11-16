@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "title": "React Native for Foodies: Cook Along with Code",
+    "startDatetime": "2024-12-01T18:00:00Z",
+    "location": "San Francisco, CA, USA",
+    "image": "https://picsum.photos/300/200?random=1",
+    "description": "Combine your passion for food and coding in this interactive workshop where you'll build a recipe app while cooking."
+  },
+  {
+    "id": 2,
+    "title": "Exploring Italy with React: Build a Travel Planner App",
+    "startDatetime": "2024-12-02T10:00:00Z",
+    "location": "Rome, Italy",
+    "image": "https://picsum.photos/300/200?random=2",
+    "description": "Learn React by building a travel planner app while discovering the beauty of Rome's landmarks."
+  },
+  {
+    "id": 3,
+    "title": "The Great Frontend Bake Off",
+    "startDatetime": "2024-12-03T14:00:00Z",
+    "location": "London, UK",
+    "image": "https://picsum.photos/300/200?random=3",
+    "description": "Code and bake your way through this unique event, where coding challenges and baking come together."
+  },
+  {
+    "id": 4,
+    "title": "React Native Bootcamp: From Zero to Hero",
+    "startDatetime": "2024-12-05T09:00:00Z",
+    "location": "New York City, NY, USA",
+    "image": "https://picsum.photos/300/200?random=4",
+    "description": "Master React Native with this hands-on bootcamp, designed for beginners and intermediate developers alike."
+  },
+  {
+    "id": 5,
+    "title": "Culinary Adventures with JavaScript",
+    "startDatetime": "2024-12-06T19:00:00Z",
+    "location": "Paris, France",
+    "image": "https://picsum.photos/300/200?random=5",
+    "description": "Discover the art of French cuisine while learning advanced JavaScript techniques in this immersive event."
+  },
+  {
+    "id": 6,
+    "title": "React Native in the Alps: Mountain Coding Retreat",
+    "startDatetime": "2024-12-08T08:00:00Z",
+    "location": "Zermatt, Switzerland",
+    "image": "https://picsum.photos/300/200?random=6",
+    "description": "Take your coding skills to new heights with this React Native retreat in the stunning Swiss Alps."
+  },
+  {
+    "id": 7,
+    "title": "Cooking Up Components: React UI Recipes",
+    "startDatetime": "2024-12-10T17:00:00Z",
+    "location": "Austin, TX, USA",
+    "image": "https://picsum.photos/300/200?random=7",
+    "description": "Craft beautiful user interfaces in React while learning quick and easy cooking recipes."
+  },
+  {
+    "id": 8,
+    "title": "Nomadic Devs: Building Travel Apps in React",
+    "startDatetime": "2024-12-12T12:00:00Z",
+    "location": "Tokyo, Japan",
+    "image": "https://picsum.photos/300/200?random=8",
+    "description": "Explore Tokyo and build travel-focused apps in React in this immersive, hands-on event."
+  },
+  {
+    "id": 9,
+    "title": "Mastering React Native Navigation",
+    "startDatetime": "2024-12-15T09:00:00Z",
+    "location": "Berlin, Germany",
+    "image": "https://picsum.photos/300/200?random=9",
+    "description": "Dive deep into React Native navigation techniques while exploring the vibrant tech hub of Berlin."
+  },
+  {
+    "id": 10,
+    "title": "Taste of Code: Pair Programming and Pair Cooking",
+    "startDatetime": "2024-12-17T16:00:00Z",
+    "location": "Sydney, Australia",
+    "image": "https://picsum.photos/300/200?random=10",
+    "description": "Partner up for a fun day of coding and cooking challenges in this interactive Sydney-based event."
+  },
+  {
+    "id": 11,
+    "title": "React in the Wild: A Hiking Adventure with Code",
+    "startDatetime": "2024-12-20T07:00:00Z",
+    "location": "Banff National Park, Canada",
+    "image": "https://picsum.photos/300/200?random=11",
+    "description": "Blend outdoor adventure with coding by building React projects while enjoying Banff's natural beauty."
+  },
+  {
+    "id": 12,
+    "title": "React and Dine: Interactive Dinner Workshops",
+    "startDatetime": "2024-12-22T19:00:00Z",
+    "location": "Barcelona, Spain",
+    "image": "https://picsum.photos/300/200?random=12",
+    "description": "Indulge in delicious Spanish cuisine while working on collaborative React projects over dinner."
+  },
+  {
+    "id": 13,
+    "title": "From Spaghetti Code to Gourmet Apps",
+    "startDatetime": "2024-12-24T14:00:00Z",
+    "location": "Milan, Italy",
+    "image": "https://picsum.photos/300/200?random=13",
+    "description": "Turn your spaghetti code into clean, modular React apps in this creative workshop."
+  },
+  {
+    "id": 14,
+    "title": "React Native Safari: Coding and Wildlife",
+    "startDatetime": "2024-12-26T08:00:00Z",
+    "location": "Serengeti, Tanzania",
+    "image": "https://picsum.photos/300/200?random=14",
+    "description": "Learn React Native basics while embarking on an unforgettable safari adventure in Tanzania."
+  },
+  {
+    "id": 15,
+    "title": "Brunch and Build: React Native over Eggs Benedict",
+    "startDatetime": "2024-12-28T11:00:00Z",
+    "location": "Seattle, WA, USA",
+    "image": "https://picsum.photos/300/200?random=15",
+    "description": "Enjoy a delightful brunch while working on React Native projects in a collaborative environment."
+  },
+  {
+    "id": 16,
+    "title": "Around the World in 80 React Components",
+    "startDatetime": "2024-12-30T09:00:00Z",
+    "location": "Hong Kong",
+    "image": "https://picsum.photos/300/200?random=16",
+    "description": "Discover React component libraries inspired by different cultures around the world."
+  },
+  {
+    "id": 17,
+    "title": "React Native Cruise: Apps on the Open Sea",
+    "startDatetime": "2025-01-02T10:00:00Z",
+    "location": "Caribbean Sea",
+    "image": "https://picsum.photos/300/200?random=17",
+    "description": "Set sail on a Caribbean cruise and learn React Native while enjoying scenic views."
+  },
+  {
+    "id": 18,
+    "title": "Cooking with Hooks: A React Workshop",
+    "startDatetime": "2025-01-05T15:00:00Z",
+    "location": "Lisbon, Portugal",
+    "image": "https://picsum.photos/300/200?random=18",
+    "description": "Master React hooks while indulging in Portuguese culinary delights in this unique workshop."
+  },
+  {
+    "id": 19,
+    "title": "React Native Deep Dive: Code, Sea, and Sand",
+    "startDatetime": "2025-01-07T13:00:00Z",
+    "location": "Maldives",
+    "image": "https://picsum.photos/300/200?random=19",
+    "description": "Unwind in paradise while honing your React Native skills on this immersive island retreat."
+  },
+  {
+    "id": 20,
+    "title": "Global Gastronomy and React Development",
+    "startDatetime": "2025-01-10T18:00:00Z",
+    "location": "Cape Town, South Africa",
+    "image": "https://picsum.photos/300/200?random=20",
+    "description": "Explore the fusion of global cuisine and React development in this one-of-a-kind workshop."
+  }
+]

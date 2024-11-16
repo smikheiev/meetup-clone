@@ -1,21 +1,24 @@
 import Feather from '@expo/vector-icons/Feather'
 import { Image, Text, View } from 'react-native'
 
-export default function EventListItem() {
+type EventListItemProps = {
+  imageUrl: string
+  location: string
+  title: string
+}
+
+export default function EventListItem({ imageUrl, location, title }: EventListItemProps) {
   return (
     <View className="m-3 gap-4 border-b-2 border-gray-100 pb-3">
       <View className="flex-row gap-1">
         <View className="flex-1 gap-2">
           <Text className="text-lg font-semibold uppercase color-stone-700">Sat 16, Nov • 19:00 EET</Text>
           <Text className=" text-2xl font-bold " numberOfLines={2}>
-            Magic workshop
+            {title}
           </Text>
-          <Text className="text-gray-700">Online</Text>
+          <Text className="text-gray-700">{location}</Text>
         </View>
-        <Image
-          className="aspect-video w-2/5 self-center rounded-xl"
-          source={{ uri: 'https://picsum.photos/seed/react1/300/200' }}
-        />
+        <Image className="aspect-video w-2/5 self-center rounded-xl" source={{ uri: imageUrl }} />
       </View>
 
       <View className="flex-row gap-3 ">
