@@ -1,7 +1,5 @@
-import { Link, Tabs } from 'expo-router'
-
-import { HeaderButton } from '../../components/HeaderButton'
-import { TabBarIcon } from '../../components/TabBarIcon'
+import FontAwesome from '@expo/vector-icons/FontAwesome'
+import { Tabs } from 'expo-router'
 
 export default function TabLayout() {
   return (
@@ -13,20 +11,13 @@ export default function TabLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: 'Tab One',
-          tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
-          headerRight: () => (
-            <Link href="/modal" asChild>
-              <HeaderButton />
-            </Link>
-          ),
+          tabBarIcon: ({ color }) => <FontAwesome size={28} name="code" color={color} />,
         }}
       />
       <Tabs.Screen
         name="two"
         options={{
-          title: 'Tab Two',
-          tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
+          tabBarIcon: ({ color }) => <FontAwesome size={28} name="adjust" color={color} />,
         }}
       />
     </Tabs>
