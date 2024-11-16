@@ -11,7 +11,14 @@ export default function Home() {
 
       <FlatList
         data={events}
-        renderItem={({ item }) => <EventListItem imageUrl={item.image} location={item.location} title={item.title} />}
+        renderItem={({ item }) => (
+          <EventListItem
+            imageUrl={item.image}
+            location={item.location}
+            startDateTime={item.startDatetime}
+            title={item.title}
+          />
+        )}
         className="bg-white"
       />
     </>
