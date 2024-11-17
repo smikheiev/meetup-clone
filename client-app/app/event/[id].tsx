@@ -1,4 +1,4 @@
-import { useLocalSearchParams } from 'expo-router'
+import { Stack, useLocalSearchParams } from 'expo-router'
 import { Text } from 'react-native'
 
 import EventDetails from '~/features/events/EventDetails'
@@ -12,5 +12,10 @@ export default function EventDetailsScreen() {
     return <Text>Event not found</Text>
   }
 
-  return <EventDetails event={event} />
+  return (
+    <>
+      <Stack.Screen options={{ title: 'Event', headerBackButtonDisplayMode: 'minimal' }} />
+      <EventDetails event={event} />
+    </>
+  )
 }
