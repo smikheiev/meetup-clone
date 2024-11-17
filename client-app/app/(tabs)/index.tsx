@@ -13,6 +13,7 @@ export default function Home() {
         data={events}
         renderItem={({ item }) => (
           <EventListItem
+            id={String(item.id)}
             imageUrl={item.image}
             location={item.location}
             startDateTime={item.startDatetime}
