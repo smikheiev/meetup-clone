@@ -10,14 +10,22 @@ type Props = {
 
 export default function EventDetails({ event }: Props) {
   return (
-    <View>
-      <Image className="aspect-video w-2/5" source={{ uri: event.image }} />
-      <Text>{event.title}</Text>
-      <Feather name="calendar" size={20} color="gray" />
-      <Text>{format(event.startDatetime, 'EEEE, d LLLL y')}</Text>
-      <Text>{format(event.startDatetime, 'HH:mm')}</Text>
-      <Feather name="map-pin" size={20} color="gray" />
-      <Text>{event.location}</Text>
+    <View className="gap-6 p-3">
+      <View className="gap-4">
+        <Image className="aspect-video w-full rounded-xl" source={{ uri: event.image }} />
+        <Text className="text-4xl font-bold">{event.title}</Text>
+      </View>
+      <View className="flex-row gap-3">
+        <Feather className="self-center" name="calendar" size={28} color="gray" />
+        <View>
+          <Text className="text-xl font-semibold">{format(event.startDatetime, 'E d, LLL • kk:mm')}</Text>
+        </View>
+      </View>
+      <View className="flex-row gap-3">
+        <Feather name="map-pin" size={28} color="gray" />
+        <Text className="text-xl font-semibold">{event.location}</Text>
+      </View>
+      <Text className="text-lg">{event.description}</Text>
     </View>
   )
 }
