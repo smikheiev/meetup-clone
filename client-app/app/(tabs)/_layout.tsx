@@ -1,8 +1,10 @@
 import FontAwesome from '@expo/vector-icons/FontAwesome'
 import { Redirect, Tabs } from 'expo-router'
 
+import useIsAuthenticated from '~/features/auth/useIsAuthenticated'
+
 export default function TabLayout() {
-  const isAuthenticated = false
+  const isAuthenticated = useIsAuthenticated()
 
   if (!isAuthenticated) {
     return <Redirect href="/auth" />
