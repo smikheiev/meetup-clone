@@ -1,12 +1,13 @@
 import { Stack } from 'expo-router'
-import { Text } from 'react-native'
+
+import LoginForm from '~/features/auth/LoginForm'
 
 export default function LoginScreen() {
   return (
     <>
       <Stack.Screen options={{ title: 'Login' }} />
 
-      <Text>Auth</Text>
+      <LoginForm />
     </>
   )
 }
